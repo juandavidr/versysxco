@@ -1,65 +1,131 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Caminar by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/7.19.1/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/7.19.1/firebase-auth.js"></script>
-    <script defer src="/__/firebase/7.19.1/firebase-database.js"></script>
-    <script defer src="/__/firebase/7.19.1/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/7.19.1/firebase-storage.js"></script>
-    <!-- initialize the SDK after all desired features are loaded -->
-    <script defer src="/__/firebase/init.js"></script>
+<head>
+    <title>VersysX CO</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
-    </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+<body>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+    <!-- Header -->
+    <header id="header">
+        <div class="logo"><a href="#">Comunidad VersysX <span>Colombia</span></a></div>
+    </header>
 
-        try {
-          let app = firebase.app();
-          let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
-          document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
-  </body>
+    <!-- Main -->
+    <section id="main">
+        <div class="inner">
+
+            <!-- One -->
+            <section id="one" class="wrapper style1">
+
+                <div class="image fit logo flush">
+                    <img src="images/Logo.png" alt="" />
+                </div>
+                <header class="special">
+                    <h2>Comunidad VersysX Colombia</h2>
+                    <p>Una comunidad de hermandad motera</p>
+                </header>
+                <div class="content">
+                    <p>Esta página ha sido creada para crear comunidad en torno a la moto de referencia Kawasaki Versys X, con el ánimo de generar lazos de amistad, compañerismo y apoyo en las diferentes situaciones que se presenten respecto a la misma </p>
+                    <p>Grupo de solo propietarios! Nuestra comunidad esta conformada solamente por propietarios actuales y anteriores verificados! por lo cual es indispensable para ser integrante del grupo contactarnos por whatssapp o facebook y de esa manera
+                        solicitar el ingreso al grupo</p>
+                </div>
+            </section>
+
+            <!-- Two -->
+            <section id="two" class="wrapper style2">
+                <header>
+                    <h2>Galleria de Imagenes</h2>
+                    <p>Algunas imagenes de nuestro miembros disfrutando de sus maquinas</p>
+                </header>
+                <div class="content">
+                    <div class="gallery">
+                        <div>
+                            <div class="image fit flush">
+                                <a href="images/VersysX16.jpg"><img src="images/VersysX16.jpg" alt="" /></a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="image fit flush">
+                                <a href="images/VersysX1.jpg"><img src="images/VersysX1.jpg" alt="" /></a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="image fit flush">
+                                <a href="images/VersysX15.jpg"><img src="images/VersysX15.jpg" alt="" /></a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="image fit flush">
+                                <a href="images/VersysX12.jpg"><img src="images/VersysX12.jpg" alt="" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Three -->
+            <section id="three" class="wrapper">
+                <div class="spotlight">
+                    <div class="image flush"><img src="images/VersysXBog1.jpeg" alt="" /></div>
+                    <div class="inner">
+                        <h3>Salidas de Grupo</h3>
+                        <p>Las salidas de grupo son un gran motivo para que la comunidad exista, cuando tienes una VersysX tienes la posibilidad de tener una aventura como ninguna otra.</p>
+                    </div>
+                </div>
+                <div class="spotlight alt">
+                    <div class="image flush"><img src="images/Alianzas1.jpeg" alt="" /></div>
+                    <div class="inner">
+                        <h3>Descuentos con marcas exclusivas</h3>
+                        <p>Si eres un miembro carnetizado de VersysX Colombia tendras acceso a dexcuentos exclusivos con diferentes marcas paraque puedas equipar tu moto con los mejores produtos del mercado, solo tienes que presentar el carnet de afiliado
+                            y listo. Ademas podras acceder a exclusivos talleres, eventos y otras sorpresas.</p>
+                    </div>
+                </div>
+                <!--div class="spotlight">
+                    <div class="image flush"><img src="images/pic08.jpg" alt="" /></div>
+                    <div class="inner">
+                        <h3>Morbi Eleifend</h3>
+                        <p>Curabitur eget semper ante. Morbi eleifend ultricies est, a blandit diam vehicula vel. Vestibulum porttitor nisi quis viverra hendrerit. Suspendisse vel volutpat nibh, vel elementum lacus. Maecenas commodo pulvinar dui, at cursus
+                            metus imperdiet vel.</p>
+                    </div>
+                </div-->
+            </section>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <ul class="icons">
+                <!--li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li-->
+                <li><a href="https://www.facebook.com/groups/1673831886021647" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                <li><a href="https://www.instagram.com/versysxco/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="https://wa.me/573175102403" class="icon fa-whatsapp"><span class="label">Whatsapp</span></a></li>
+                <!--li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li-->
+            </ul>
+        </div>
+        <div class="copyright">
+            &copy; Untitled. All rights reserved. Images <a href="https://unsplash.com">Unsplash</a> Design <a href="https://templated.co">TEMPLATED</a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.poptrox.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
