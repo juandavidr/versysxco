@@ -3089,3 +3089,11 @@ body:after {
 div p {
     font-size: large;
 }
+
+.photo-wrapper {
+    border: 5px solid greenyellow;
+    margin-right: 20px;
+    max-height: calc(33.3333% - 20px);
+    box-sizing: border-box;
+    display: flex;
+}
